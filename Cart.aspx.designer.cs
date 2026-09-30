@@ -1,0 +1,1 @@
+namespace WebApplication7 { public partial class Cart { protected global::System.Web.UI.WebControls.Label lblMessage; protected global::System.Web.UI.WebControls.GridView gvCart; protected global::System.Web.UI.WebControls.Label lblTotal; protected global::System.Web.UI.WebControls.Button btnCheckout; } }

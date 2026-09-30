@@ -1,0 +1,1 @@
+namespace WebApplication7 { public partial class Checkout { protected global::System.Web.UI.WebControls.TextBox txtAddress; protected global::System.Web.UI.WebControls.Label lblTotal; protected global::System.Web.UI.WebControls.Button btnContinue; protected global::System.Web.UI.WebControls.Label lblMessage; } }

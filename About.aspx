@@ -1,0 +1,6 @@
+<%@ Page Title="About" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="WebApplication7.About" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server"></asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<section class="hero"><h1>About Us</h1><img class="about-image" src="https://i.pinimg.com/1200x/b3/69/9a/b3699a8788c95d7eeaec00da427b1cb6.jpg" alt="Gallery" /></section>
+<div class="admin-box"><h2>Welcome to Heritage Fame Art Gallery</h2><p>Heritage Fame brings art, culture and history together to inspire every visitor.</p><p>Our gallery celebrates artistic heritage while providing a platform for creative works from different backgrounds. From timeless masterpieces to contemporary creations, every artwork tells a unique story.</p><h2>Our Mission</h2><p>To preserve artistic heritage, support artists and create a space where creativity, culture and imagination flourish.</p><h2>Our Vision</h2><p>To become a trusted destination for art lovers by promoting creativity and inspiring future generations.</p></div>
+</asp:Content>

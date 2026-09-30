@@ -1,0 +1,1 @@
+namespace WebApplication7 { public partial class Favorites { protected global::System.Web.UI.WebControls.Label lblMessage; protected global::System.Web.UI.WebControls.Repeater rptFavorites; } }

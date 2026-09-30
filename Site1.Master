@@ -1,0 +1,21 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="WebApplication7.Site1" %>
+<!DOCTYPE html>
+<html><head runat="server"><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title><asp:ContentPlaceHolder ID="TitleContent" runat="server">Heritage Fame Art Gallery</asp:ContentPlaceHolder></title><link href="StyleSheet1.css" rel="stylesheet" /><asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder></head>
+<body><form id="form1" runat="server">
+<nav class="navbar">
+<a class="brand" href="Home.aspx">Heritage Fame</a>
+<div class="nav">
+<a href="Home.aspx">Home</a>
+<a href="About.aspx">About us</a>
+<a href="Contact.aspx">Contact us</a>
+<a href="Favorites.aspx">&#10084; Favorites</a>
+<a href="Cart.aspx">&#128722; Cart</a>
+<div class="dropdown"><a href="Login.aspx" class="dropbtn">Login &#9662;</a><div class="dropdown-content">
+<a href="UserLogin.aspx">User Login</a><a href="Signup.aspx">New User / Sign Up</a><a href="AdminLogin.aspx">Admin Login</a>
+<asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click" CssClass="nav-link-button">Logout</asp:LinkButton>
+</div></div>
+</div></nav>
+<main class="container"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></main>
+<footer class="footer"><div class="footer-title">Heritage Fame Art Gallery</div><div>Art, culture and creativity — curated with care.</div><div class="footer-links"><a href="About.aspx">About us</a><a href="Contact.aspx">Contact us</a><a href="Gallery.aspx">Browse Collection</a></div><div class="footer-copy">&copy; 2026 Heritage Fame Art Gallery. All rights reserved.</div></footer>
+</form></body></html>

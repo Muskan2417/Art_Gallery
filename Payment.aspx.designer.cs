@@ -1,0 +1,1 @@
+namespace WebApplication7 { public partial class Payment { protected global::System.Web.UI.WebControls.Label lblTotal; protected global::System.Web.UI.WebControls.DropDownList ddlPayment; protected global::System.Web.UI.WebControls.Button btnPay; protected global::System.Web.UI.WebControls.Label lblMessage; } }

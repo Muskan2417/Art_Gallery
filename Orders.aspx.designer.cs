@@ -1,0 +1,1 @@
+namespace WebApplication7 { public partial class Orders { protected global::System.Web.UI.WebControls.GridView gvOrders; } }
